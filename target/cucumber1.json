@@ -1,0 +1,504 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Landing on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6601000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User is on the etsy home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.user_is_on_the_etsy_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-09T13:14:26.192Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Title Verification",
+        "description": "",
+        "id": "etsy-search-feature;title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1012000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User should see title as expected",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.user_should_see_title_as_expected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@etsy"
+          },
+          {
+            "name": "@etsyWip1"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Landing on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4614000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User is on the etsy home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.user_is_on_the_etsy_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-09T13:14:33.937Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Etsy Search Functionality Title Verification",
+        "description": "",
+        "id": "etsy-search-feature;etsy-search-functionality-title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 343000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User types Wooden Spoon in the search box",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.userTypesWoodenSpoonInTheSearchBox()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1653000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "User clicks search box",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.userClicksSearchBox()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1029000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User should see Wooden Spoon is in the title",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.userShouldSeeWoodenSpoonIsInTheTitle()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@etsy"
+          },
+          {
+            "name": "@etsyWip2"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Landing on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4259000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User is on the etsy home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.user_is_on_the_etsy_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-09T13:14:41.882Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Etsy Search Functionality Title Verification",
+        "description": "",
+        "id": "etsy-search-feature;etsy-search-functionality-title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 544000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "User types \"Box of chocolate\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Box of chocolate\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.userTypesInTheSearchBox(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1406000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "User clicks to search box",
+            "match": {
+              "location": "com.cybertek.step_definitions.Etsy_stepDefinitions.userClicksToSearchBox()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setUpStep()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "User should see \"Box of chocolate\" is in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Box of chocolate\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cybertek.step_definitions.Google_stepDefinitions.userShouldSeeIsInTheTitle(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.tearDownStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@etsy"
+          },
+          {
+            "name": "@etsyWip3"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy Search feature",
+    "description": "  Agile story: User should be able to enter search term and see relevant results\n                in the page and in the title.",
+    "id": "etsy-search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/EtsySearch.feature",
+    "tags": [
+      {
+        "name": "@etsy",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

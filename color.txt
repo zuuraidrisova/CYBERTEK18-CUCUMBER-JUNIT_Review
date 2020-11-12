@@ -4,3 +4,4 @@ blue
 pink
 yellow
 orange
+white

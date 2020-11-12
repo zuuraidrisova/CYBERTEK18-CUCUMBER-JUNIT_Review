@@ -7,3 +7,4 @@ orange
 white
 brown
 black
+dark-blue

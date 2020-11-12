@@ -8,3 +8,5 @@ white
 brown
 black
 dark-blue
+light-blue
+

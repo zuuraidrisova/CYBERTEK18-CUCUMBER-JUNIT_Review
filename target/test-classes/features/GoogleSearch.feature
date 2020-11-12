@@ -14,7 +14,7 @@ Feature: Google Search
       Then User should see apple in title
 
   # shortcut for mac:  option + enter allows u to generate step definitions
-
+#parameterization
   Scenario: Google title verification after search
     When User searches "peach"
     Then User should see "peach" in title
@@ -25,6 +25,7 @@ Feature: Google Search
     Then User should see title Google - About Google, Our Culture & Company News
 
 
+    #DATAtABLES
     @googleTable
   Scenario: Google Search Page footer links verification
     Then User should see six links in the footer

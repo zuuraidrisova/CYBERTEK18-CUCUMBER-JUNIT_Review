@@ -106,9 +106,22 @@ docker-compose scale chrome=10
 
 This command will create 10 containers with chrome based selenium grid nodes.
 
-
 To run tests, we need to use RemoteWebdriver class and provide URL of selenium
 grid hub and desired capabilities(chrome or firefox options).
+
+ex:
+case "firefox-remote":
+                    try{
+
+                        FirefoxOptions firefoxOptions = new FirefoxOptions();
+                        URL url = new URL("http://54.87.102.95:4444/wd/hub");
+                        driver = new RemoteWebDriver(url, firefoxOptions);
+
+                    }catch (Exception e){
+
+                        e.printStackTrace();
+                    }
+                    break;
 
 Selenium Grid allows us to reduce test execution time. Regression suite must be
 executed asap and our laptop performance is not enough for this. That's why,

@@ -6,7 +6,6 @@ public class day20_SeleniumGrid {
 
  Agenda: Selenium Grid
 
-
  Region: N. Virginia
  AMI name: cybertek_docker_grid
 
@@ -16,7 +15,7 @@ Open terminal/powershell
 
 Navigate to the folder with previously downloaded pem file
 
- 1. ONLY For MAC, WINDOWS UESRS PLEASE DON'T RUN THIS COMMAND:
+1. ONLY For MAC, WINDOWS USERS PLEASE DON'T RUN THIS COMMAND:
 
   	chmod 400 b18_key.pem
 
@@ -26,8 +25,7 @@ Navigate to the folder with previously downloaded pem file
 
  	sudo chmod 400 b18_key.pem
 
- 	Then, enter password. Password id invisible.
-
+Then, enter password. Password id invisible.
 
  2. For everyone:
 
@@ -35,22 +33,16 @@ Change root to ec2-user
 
  ssh -i "b18_key.pem" ec2-user@ec2-54-80-133-27.compute-1.amazonaws.com
 
-
 after @, is your server address
 
 cd folder name
 
 cd .. go back to the parent folder
 
-
-
 If it's asking you "Are you sure you want to continue?" - Enter yes, and hit Return/Enter
-
 
 Navigate to downloads folder from everywhere
 cd ~/Downloads
-
-break until 12 PM EST
 
 #To start selenium grid
 
@@ -68,33 +60,28 @@ docker container ps
 
 http://ip_address_of_your_ec:4444/grid/console
 
-
 *NOTE: make sure that port 4444 is opened. You can check on AWS console --> inbound rules
 
 PLEASE DON'T SCALE SELENIUM GRID ON EC2 micro instance!
 
-
-
-
 ############################
 
-Selenium Grid - tool for remote test execution. It allows to run tests on multiple
+Selenium Grid - is a tool for remote test execution. It allows to run tests on multiple
 servers at the same time. Also, it provides cross platform and cross browser testing
 capabilities.
 
 Selenium Grid has 2 components: hub and node.
 
-In the grid, there should only one hub and one or more nodes.
+In the grid, there should be only one hub, but one or more nodes.
 
 Hub and nodes can be located on the different servers.
 
-
-Since Selenium Grid it's a java program, it requires to install JDK, browsers and
+Since Selenium Grid is a java program, it requires to install JDK, browsers and
  web drivers.
 
 Why do we need a docker here?
 
-Docker is used to run containers. Container it's a lightweight VM that is running
+Docker is used to run containers. Container is a lightweight VM that is running
  your program. Container has all required dependencies to run that program.
  For example: container for hub is based on linux OS and has JDK and selenium
  standalone jar file (for Selenium Grid file). Container for node has linux OS,
@@ -107,7 +94,7 @@ docker-compose scale chrome=10
 This command will create 10 containers with chrome based selenium grid nodes.
 
 To run tests, we need to use RemoteWebdriver class and provide URL of selenium
-grid hub and desired capabilities(chrome or firefox options).
+grid hub and desired capabilities(chrome or firefox options) in our Driver utility class
 
 ex:
 case "firefox-remote":

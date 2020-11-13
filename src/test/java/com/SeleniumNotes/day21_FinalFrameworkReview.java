@@ -34,7 +34,7 @@ public class day21_FinalFrameworkReview {
 	- BDD
 		- Cucumber / Gherkin : for non-technical people
 	- Maven : pom.xml for dependency management
-		-dependencies
+		-dependencies, plugins
 	- page object model
 		-easy manage
 		-easy access
@@ -50,7 +50,7 @@ public class day21_FinalFrameworkReview {
 	- maven
 		-pom.xml
 	-singleton design pattern for driver
-	- page object model for reusable
+	- page object model for re-usability of web elements
 	- cucumber for BDD
 		- especially helpful for non-technical people with gherkin language
 	- configuration.properties
@@ -62,13 +62,13 @@ public class day21_FinalFrameworkReview {
 
 ============================================================
 
-tell me about your framework
+tell me about your framework(Gurhan's answer)
 
 - I used java as my programming language in my framework.
 - I used Selenium to automate my browsers.
 - I used maven as my built automation tool. which has pom.xml file that allows me
-    to manage my dependencies easyly.
-- I used Page Object Model to simplify managing and maintaing my framework for myself
+    to manage my dependencies and plugins easily from one place.
+- I used Page Object Model to simplify managing and maintaining my framework for myself
     and my team.
 	- this design pattern allows me to locate web elements only once, in their respective
 	 classes.
@@ -77,13 +77,13 @@ tell me about your framework
 - I created Singleton Design Pattern to allow my framework to pass the same instance
     of my webdriver in one session.
 	- (one session: when you click run, selenium creates one session. the session
-	    will end when the driver stops.)
+	    will end when the driver stops/closes driver.)
 
 - I created a configuration.PROPERTIES type of file where I keep the important test data
     about my framework. I keep Test data that can change the running flow of the whole
      framework, such as:
-	- browser
-	- username/password
+	- browser : change and run on different browsers
+	- username/password : to run the same scenario using different credentials
 	- url: to change and run on different environments
 
 - I created utility class from existing java library to read from properties type of file.
@@ -95,11 +95,11 @@ tell me about your framework
     the non-technical teammates in my team.
 	- I write my test cases as if they are scenarios from the end users perspective
 	 in Gherkin language in my feature files.
-	- Gherkin is very similar to English. THerefore it is easy to understand
+	- Gherkin is very similar to English. Therefore, it is easy to understand
 	    for non-technical teammates.
 
 	- I implemented the actual coding logic with JAVA-SELENIUM-JUNIT...
-	inside of my step_definitions package and it their own respective/related classes
+	inside of my step_definitions package and in their own respective/related classes
 
 - I trigger my framework from my runner class.
 - Runner class allows me to run different types of testing suites that I created
@@ -107,19 +107,17 @@ tell me about your framework
 
 - I have different types of reports. But mainly I use "maven-cucumber-reporting"
 which is a very detailed reporting tool that has pie-charts, matrixes on which tests
-    are passing and failing.
+    are passing and failing, but we have to add maven-surefire plugin
+        because it is third party tool
 - Even has the option to show what percentage of which tags are failing and passing.
 
 - Hooks class, where we implement some cucumber annotations such as Before, After,
-    beforestep, afterstep to create outline for my scenarios.
+    beforeStep, afterStep to create outline for my scenarios.
+
 - I also implemented a logic where my framework is taking a screenshot and attaching
     it to my report if a scenario is failing.
 
-- APACHE POI
-STARTING FROM JULY 24TH
-- SQL
-- API
-
+    - APACHE POI
 
 #3-> Go over this one final time
 
@@ -128,7 +126,7 @@ STARTING FROM JULY 24TH
 	-> BE CONFIDENT. but no too much?
 	-> NEVER PANIC AND FREEZE. THAT IS THE WORST THING YOU CAN DO.
 	-> RELAX, NOT TOO MUCH.
-	-> whatever you put on your resume, you have to very comfortable talking about it.
+	-> whatever you put on your resume, you have to be very comfortable talking about it.
 	-> Be friendly and conversational.
 	-> It is ok to say I don't know.
 	-> Don't go for cheap price.

@@ -85,6 +85,7 @@ public class Driver {
                         e.printStackTrace();
                     }
                     break;
+
                 default:
                     throw new RuntimeException("Wrong browser name: "+browser);
 
